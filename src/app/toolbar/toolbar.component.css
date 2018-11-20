@@ -1,0 +1,49 @@
+
+.style1{
+    color : cornflowerblue;
+    font-size: 25px;
+}
+.style2{
+    color: rgb(98, 99, 100);
+    font-size: 20px;
+}
+.header{
+    height: 100px;
+    padding-top: 10px;
+    background-color: transparent;
+    border-bottom: 2px;
+}
+.material-icons{
+    color: rgb(98, 99, 100);
+}
+
+.toolButton{
+    padding-left: 150px;
+    padding-top: 40px;
+}
+.mat-button{
+    margin-left: 25px;
+    color: rgb(98, 99, 100);
+}
+.toolIcon{
+    padding-top: 40px;
+    padding-left: 40px;
+}
+.borderLine{
+    margin-left: 600px;;
+    border-bottom:1.1px solid;
+    width: 850px;
+    color: cornflowerblue;
+}
+.material-icon-search{
+    font-size: 40px;
+    color: rgb(98, 99, 100);
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+  .right-items {
+      padding-top: 155px;
+  }

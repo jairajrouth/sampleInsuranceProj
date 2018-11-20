@@ -1,0 +1,25 @@
+<mat-toolbar class="header">
+  <mat-toolbar-row>
+    <span class="style1">MyInsurance|</span>
+    <span class="style2">Company</span>
+
+    <span class="example-spacer"></span>
+    <div class="right-items">
+    <mat-form-field class="example-full-width" *ngIf="searchBoxShown">
+      <input matInput placeholder="Search">
+    </mat-form-field>
+    <button mat-icon-button (click)="searchBoxShown = !searchBoxShown">
+      <mat-icon>search</mat-icon>
+    </button>
+
+    <button mat-button>About Us</button>
+    <button mat-button>Services</button>
+    <button mat-button>Contact Us</button>
+
+    <button mat-icon-button>
+      <mat-icon>account_circle</mat-icon>
+    </button>
+  </div>
+  </mat-toolbar-row>
+</mat-toolbar>
+<div class="borderLine"></div>
