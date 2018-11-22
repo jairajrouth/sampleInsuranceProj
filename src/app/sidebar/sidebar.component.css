@@ -1,0 +1,11 @@
+
+
+  .sideButtons{
+    width: 200px;
+    height: 50px;
+  }
+.sideContainer{
+    background-color: transparent;
+    height: 900px;
+    width: 800px;
+}
