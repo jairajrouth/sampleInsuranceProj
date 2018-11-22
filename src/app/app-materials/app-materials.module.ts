@@ -8,6 +8,8 @@ import {
   MatListModule,
   MatMenuModule,
   MatInputModule,
+  MatCardModule,
+  MatChipsModule,
 } from '@angular/material';
 
 @NgModule({
@@ -20,6 +22,8 @@ import {
     MatListModule,
     MatMenuModule,
     MatInputModule,
+    MatCardModule,
+    MatChipsModule,
   ],
   exports:[
     MatToolbarModule,
@@ -29,6 +33,8 @@ import {
     MatListModule,
     MatMenuModule,
     MatInputModule,
+    MatCardModule,
+    MatChipsModule,
   ]
 })
 export class AppMaterialsModule { }
