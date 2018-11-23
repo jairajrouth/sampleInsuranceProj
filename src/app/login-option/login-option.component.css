@@ -1,14 +1,17 @@
 
-.example-card {
+.example-card{
     max-width: 300px;
-    float: right;
     height: 400px;
-  }
-.mat-card-avatar{
-  text-align: center;
-}
-.loginCard{
-  padding-right: 300px;
+    float: right;
+    margin-right: 200px;
+    border-radius: 30px;
+   }
+
+.example-button-row button{
+  width: 200px;
+  height: 40px;
+  background-color: cornflowerblue;
+  border-radius: 50px;
 }
 .style1{
   color : cornflowerblue;
@@ -24,5 +27,14 @@
 }
 .example-full-width{
   width: 280px;
-  align-self: center;
+}
+.signUpLink{
+  text-decoration: none;
+  font-size: 15px;
+  color: cornflowerblue;
+}
+.signinMSG{
+  padding-top: 80px;
+  font-size: 15px;
+  text-align: center;
 }
