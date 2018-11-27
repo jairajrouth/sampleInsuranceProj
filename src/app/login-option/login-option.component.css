@@ -1,40 +1,37 @@
 
+.loginCard{
+  float: right;
+}
 .example-card{
-    max-width: 300px;
-    height: 400px;
-    float: right;
-    margin-right: 200px;
-    border-radius: 30px;
+    max-width: 300px;height: 400px; float: right;margin-right: 250px; border-radius: 30px;
    }
-
 .example-button-row button{
-  width: 200px;
-  height: 40px;
-  background-color: cornflowerblue;
-  border-radius: 50px;
+  width: 200px; height: 40px; background-color: cornflowerblue; border-radius: 15px;
 }
 .style1{
-  color : cornflowerblue;
-  font-size: 18px;
+  color : cornflowerblue; font-size: 18px;
 }
 .style2{
-  color: rgb(98, 99, 100);
-  font-size: 16px;
+  color: rgb(98, 99, 100); font-size: 16px;
 }
 .mat-card-subtitle{
-  padding-top: 10px;
-  text-align: center;
+  padding-top: 10px; text-align: center;
 }
 .example-full-width{
   width: 280px;
 }
 .signUpLink{
-  text-decoration: none;
-  font-size: 15px;
-  color: cornflowerblue;
+  text-decoration: none; font-size: 15px; color: cornflowerblue;
 }
 .signinMSG{
-  padding-top: 80px;
-  font-size: 15px;
-  text-align: center;
+  padding-top: 80px; font-size: 15px; text-align: center;
+}
+.message1{
+  font-size: 60px; padding-left: 30px; float: left; font-family: Cambria;
+}
+.mobileImage{
+  max-width: 300px;height: 400px; float: right;margin-right: 200px; border-radius: 30px;
+}
+.message3{
+float: left; font-family: Cambria; font-size: 18px;
 }
