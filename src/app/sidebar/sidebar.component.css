@@ -1,11 +1,47 @@
 
-  .sideButtons{
-    width: 200px;
-    height: 50px;
-  }
+ .sidebarOptions {
+  position: relative;
+  width: 180px;
+  padding-top: 50px;
+}
+
+.option {
+  padding: 16px;
+  font-size: 16px;
+  background: cornflowerblue;
+  text-align: center;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: rgb(206, 146, 198);
+  min-width: 180px;
+  top: 50px;
+  left: 180px;
+  position: absolute;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px;
+  text-decoration: none;
+  display: block;
+  list-style: none;
+  text-align: center;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+.sidebarOptions:hover .dropdown-content {display: block;}
+.sidebarOptions:hover.option{background-color: darksalmon;}
+
+.listHidden{
+  list-style: none; width: 200px;
+}
+
 .sideContainer{
-    background-color: transparent;
-    height: 300px;
-    width: 200px;
-    float: left;
+  background-color: transparent;
+  height: 500px;
+  width: 250px;
+  float: left;
 }
