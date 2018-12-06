@@ -92,3 +92,38 @@ SideBar Code
             <button mat-button>Sign Up</button>
           </mat-card-actions>
         </mat-card>
+
+
+=======================================================================================================================
+
+<mat-drawer-container class="sideContainer">
+                <mat-drawer mode="side" opened>
+                                <ul class="listHidden">
+                                        <div class="sidebarOptions">
+                                                <li class="option">Home</li>
+                                                <div class="dropdown-content float">
+                                                        <div><a href="#">Link 1.1</a></div>
+                                                        <div><a href="#">Link 1.2</a></div>
+                                                        <div><a href="#">Link 1.3</a></div>
+                                                </div>
+                                        </div>
+                                        <div class="sidebarOptions">
+                                                <li class="option">Contact Us</li>
+                                                <div class="dropdown-content float">
+                                                        <div><a href="#">Link 2.1</a></div>
+                                                        <div><a href="#">Link 2.2</a></div>
+                                                        <div><a href="#">Link 2.3</a></div>
+                                                </div>
+                                        </div>
+                                        <div class="sidebarOptions">
+                                                <li class="option">About Us</li>
+                                                <div class="dropdown-content float">
+                                                        <div><a href="#">Link 3.1</a></div>
+                                                        <div><a href="#">Link 3.2</a></div>
+                                                        <div><a href="#">Link 3.3</a></div>
+                                                </div>
+                                        </div>
+                                </ul>
+                </mat-drawer>
+                <mat-drawer-content></mat-drawer-content>
+              </mat-drawer-container>
