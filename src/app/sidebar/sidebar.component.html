@@ -1,13 +1,19 @@
 <mat-drawer-container class="sideContainer">
-        <div *ngFor="let item of menuItems; let i = index">
-                <button mat-button color="primary" class="menu-btn" (mouseenter)="mouseEnter(i)">{{ item.title }}</button>
-                <div *ngIf="item.hovered" class="float" [ngStyle]="{'top': item.top}" (mouseleave)="mouseLeave(i)">
-                        <div class="subMenu">
-                                <div *ngFor="let subItem of item.sub">
-                                        <button mat-button color="primary" class="menu-btn">{{ subItem }}</button>
+        <div (mouseleave)="mouseLeaveReg()">
+                <div *ngFor="let item of menuItems; let i = index">
+                        <ul>
+                                <li (mouseenter)="mouseEnterMain(i)" class="menuOption">{{item.title}}</li>
+                        </ul>
+                        <div *ngIf="item.hovered" class="float" [ngStyle]="{'top': item.top}" (mouseleave)="mouseLeaveSub(i)">
+                                <div class="subMenu">
+                                        <div *ngFor="let subItem of item.sub">
+                                                <div class="menuOption optionDiv">
+                                                        <a href="#">{{ subItem }}</a>
+                                                </div>
+                                        </div>
                                 </div>
-                        </div>
 
+                        </div>
                 </div>
         </div>
 </mat-drawer-container>

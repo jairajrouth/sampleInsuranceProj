@@ -1,25 +1,42 @@
 
 .sideContainer{
   background-color: transparent;
-  height: 500px;
-  width: 200px;
+  height: 400px;
+  width: 180px;
   float: left;
   padding-top: 30px;
 }
 
 .float{
 	position: fixed;
-  left: 200px;
+  left: 180px;
 }
 
-.menu-btn {
-  width: 100%;
+.menuOption {
+  width: 100px;;
   cursor: pointer;
   margin-bottom: 20px;
-  padding: 5px;
+  padding: 10px;
   color: black;
+  list-style-type: none;
+  font-family: Calibri;
+  font-size: 16px;
 }
+
 .subMenu{
   border-radius: 5px;
   background: rgb(247, 247, 243);
+  width: 190px;
 }
+.subMenu a{
+  text-decoration: none;
+  color: black;
+  display: block;
+  text-align: center;
+}
+
+.optionDiv
+{
+  width: 170px;
+}
+.subMenu :hover {background-color:rgb(202, 131, 159); border-radius: 5px;}

@@ -9,9 +9,9 @@ import { MatSidenav } from '@angular/material/sidenav';
 export class SidebarComponent implements OnInit {
 
   menuItems: Array<any> = [
-    {title: 'Home', top: "130px", hovered: false, sub: ['sub OnePointOne', 'sub 1.2', 'sub 1.3', 'sub 1.4']},
-    {title: 'Contact Us', top: "170px", hovered: false, sub: ['sub 2.1', 'sub 2.2', 'sub 2.3']},
-    {title: 'About Us', top: "200px", hovered: false, sub: ['sub 3.1', 'sub 3.2', 'sub 3.3', 'sub 3.4', 'sub 3.5']},
+    {title: 'Home', top: "140px", hovered: false, sub: ['Sub OnePointOne', 'Sub OnePointTwo', 'Sub OnePointThree', 'Sub OnePointFour']},
+    {title: 'Contact Us', top: "200px", hovered: false, sub: ['Sub TwoPointOne', 'Sub TwoPointOne', 'Sub TwoPointOne', 'Sub TwoPointOne']},
+    {title: 'About Us', top: "260px", hovered: false, sub: ['Sub ThreePointOne', 'Sub ThreePointOne', 'Sub ThreePointOne', 'Sub ThreePointOne', 'Sub ThreePointOne']},
   ];
 
  @ViewChild('sidebar') sidebar : MatSidenav;
@@ -24,13 +24,16 @@ export class SidebarComponent implements OnInit {
   ngOnInit() {
   }
 
-  mouseEnter(i: number) {
-    console.log(i);
+  mouseEnterMain(i: number) {
     this.menuItems.forEach((v => v.hovered = false));
     this.menuItems[i].hovered = true;
   }
 
-  mouseLeave(i: number) {
+  mouseLeaveSub(i: number) {
+    this.menuItems[i].hovered = false;
+  }
+
+  mouseLeaveReg() {
     this.menuItems.forEach((v => v.hovered = false));
   }
 }
