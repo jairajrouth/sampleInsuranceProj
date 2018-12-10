@@ -1,0 +1,35 @@
+
+.message1{
+    font-size: 60px; padding-left: 30px; font-family: Calibri; color: cornflowerblue;
+  }
+  .mobileImage{
+    max-width: 250px;height: 350px; float: right; margin-right: 200px; border-radius: 30px;
+  }
+  .message3{
+  float: left; font-family: Cambria; font-size: 18px; color: rgb(116, 120, 124);
+  }
+  .col { float: left;
+  }
+  .col1 { width: 60%;
+  }
+  .col2 { width: auto; padding-top: 30px;
+  }
+  .row1 { padding-top: 90px; width: 100%;
+  }
+  .row2 { padding: 30px; width: 100%;
+  }
+  @keyframes slideInUp {
+    from {
+      transform: translate3d(0, 100%, 0);
+      visibility: visible;
+    }
+  
+    to {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  .row1 {
+    animation-duration: 2s;
+    animation-name: slideInUp;
+  }
