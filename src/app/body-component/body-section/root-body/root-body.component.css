@@ -19,15 +19,11 @@ float: left; font-family: Cambria; font-size: 18px; color: rgb(116, 120, 124);
 }
 @keyframes slideInUp {
   from {
-    transform: translate3d(0, 100%, 0);
-    visibility: visible;
+    transform: translate3d(0, 100%, 0); visibility: visible;
   }
+  to { transform: translate3d(0, 0, 0);
+  }
+}
+.message1 { animation-duration: 2s; animation-name: slideInUp;
+}
 
-  to {
-    transform: translate3d(0, 0, 0);
-  }
-}
-.message1 {
-  animation-duration: 2s;
-  animation-name: slideInUp;
-}
