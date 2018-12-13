@@ -8,7 +8,6 @@ import { Component, OnInit } from '@angular/core';
 export class RootBody2Component implements OnInit {
 
   constructor() { }
-
   ngOnInit() {
   }
 
