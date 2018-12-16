@@ -17,10 +17,36 @@
 .site-quick-support .contact-box {
     width: 100%;
     border-radius: 12px;
-    height: 350px;
+    height: 500px;
     padding-left: 20px;
     margin-top: 70%;
 }
 .blue-purple-gredient {
-    background-image: linear-gradient(to right, rgb(124, 159, 194),cornflowerblue);
+    background: #836aeb;
+    background: rgba(50,187,241,1);
+    background: -moz-linear-gradient(-45deg, rgba(50,187,241,1) 0%, rgba(166,73,233,1) 68%, rgba(166,73,233,1) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(50,187,241,1) 0%, rgba(166,73,233,1) 68%, rgba(166,73,233,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(50,187,241,1) 0%, rgba(166,73,233,1) 68%, rgba(166,73,233,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(50,187,241,1) 0%, rgba(166,73,233,1) 68%, rgba(166,73,233,1) 100%);
+    background: linear-gradient(135deg, rgba(50,187,241,1) 0%, rgba(166,73,233,1) 68%, rgba(166,73,233,1) 100%);
+}
+
+.footerElement{
+    font-family: Calibri;
+    color: white;
+    float: left;
+}
+.footerHeading{
+    font-size: 36px;
+
+    text-align: left;
+    padding: 30px;
+}
+
+.footerSubHeading{
+    font-size: 17px;
+   
+    text-align: left;
+    padding: 10px;
+    padding-left: 30px;
 }
