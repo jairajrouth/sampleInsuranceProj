@@ -10,6 +10,7 @@ import { ToolbarComponent } from './body-component/toolbar/toolbar.component';
 import { RootBodyComponent } from './body-component/body-section/root-body/root-body.component';
 import { RootBody2Component } from './body-component/body-section/root-body2/root-body2.component';
 import { SidebarComponent } from './body-component/sidebar/sidebar.component';
+import { RootBody3Component } from './body-component/body-section/root-body3/root-body3.component';
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { SidebarComponent } from './body-component/sidebar/sidebar.component';
     RootBodyComponent,
     FooterComponent,
     RootBody2Component,
+    RootBody3Component,
   ],
   imports: [
     BrowserModule,
